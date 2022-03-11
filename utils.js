@@ -1,8 +1,7 @@
-
 /**
  * The encoder method we have used when inserting untrusted data via the innerHTML property
  * Ref: https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
- * @param {str} str 
+ * @param {str} str
  * @returns the encode string
  */
 export function encode(str) {
